@@ -39,6 +39,8 @@ namespace EditorHtml
                 Console.WriteLine("Forneça o caminho para salvar o arquivo");
                 HandleOptionSelected(Console.ReadLine(), file.ToString());
             }
+
+            Menu.Show();
         }
 
         public static void HandleOptionSelected(string path, string content)
